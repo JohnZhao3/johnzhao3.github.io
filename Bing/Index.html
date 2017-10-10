@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bing</title>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{
+			margin:0;padding:0;border:0;
+		}
+		body{
+			background-color: rgb(51,51,51);
+		}
+		.main-body{
+			width: 100%;
+			height: 100%;
+		}
+		.main{
+			background: url("bing-pic3.jpg") no-repeat;
+			width:89%;
+			height:724px;
+			margin: 0 auto;
+			background-size: cover;
+		}
+		.header{
+			height:43px;
+		}
+		.nav{
+		
+			
+		}
+		.nav ul li{
+			list-style: none;
+			display: inline-block;
+			float: left;
+			height:43px;
+			line-height: 43px;
+		}
+		.nav ul li a{
+			text-decoration: none;
+			font-size: 13px;
+			font-family: Segoe UI;
+			margin: 0 18px;
+			opacity: 0.8;
+			color: #fff;
+		}
+		.nav ul li a:hover{
+			opacity: 2;
+			color:#fff;
+		}
+		#line{
+			font-size: 13px;
+			color: #fff;
+			margin: 0 18px;
+			
+			
+		}
+		#web{
+			border-bottom:1px solid #fff;
+			border-collapse: collapse;
+
+		}
+		.signInSection{
+			float: right;
+   			height: 43px !important;
+   			width: auto;
+   			position: relative;
+   			left: 5px;
+   			top:7px;
+		}
+		.signIn{
+			display: inline-block;
+			height: 43px;
+			text-decoration: none;
+			color: #fff !important;
+			background-color: transparent;
+			margin-right: 2px;
+			font-size: 13px;
+			font-family: Segoe UI;
+			vertical-align: middle;
+
+		}
+		.signInButton{
+			display: inline-block;
+    		height: 32px;
+    		width: 32px;
+    		border-radius: 16px;
+    		background-color: #555;
+    		background: url("id_button.png") no-repeat center;
+
+    		
+    	}
+    	.left-bar{
+    		display: inline-block;
+    		margin-left: 20px;
+    		height: 23px;
+    		width: 35px;
+    		background:url("bar2.png") no-repeat center;
+    		vertical-align: top;
+    		background-size: 75%;
+    	}
+    	.search-section{
+    		margin-left: 30px;
+    		margin-top: 65px;
+    	}
+    	.bing-sign{
+    		display: inline-block;
+    		padding: 0 1.5em;
+    	}
+    	.search-bar{
+    		height: 45px;
+    		width: 59%;;
+    		border: none;
+    		background-color: #fff !important;
+    	}
+    	.submit{
+
+    		width: 45px;
+    		height: 45px;
+    		background: url("bar-coin.png") no-repeat center;
+    		border:none;
+    		margin-left: -5px;
+    	}
+    	.footer{
+    		height: 35px;
+
+    	}
+		.footer-bar{
+			float: right;
+			height: 35px;
+			width: 680.49px;
+			line-height: 32px;
+			position: absolute;
+			right: 10px
+		}
+		.footer ul{
+			
+
+		}
+		.footer ul li{
+			list-style: none;
+			display: inline-block;
+			color: rgb(102, 102, 102);
+			float: left;
+
+		}
+		.footer ul li a{
+			color: rgb(102, 102, 102);
+			font-size: 13px;
+			font-family: Segoe UI;
+			padding: 0 15px;
+		}
+		.footer ul li a:hover{
+			color: rgb(152, 152, 152);
+		}
+		#feedback{
+			color: rgb(152, 152, 152);
+		}
+	</style>
+</head>
+<body>
+	<div class="main-body">
+	<div class="main container-fluid">
+		<div class="header col-sm-12">
+			<div class="nav col-sm-10">
+				<ul>
+					<li><a href="#" id="web">Web</a></li>
+					<li><a href="#">Images</a></li>
+					<li><a href="#">Videos</a></li>
+					<li><a href="#">News</a></li>
+					<li id="line">|</li>
+					<li><a href="#">MSN</a></li>
+					<li><a href="#">Office Online</a></li>
+					<li><a href="#">Outlook.com</a></li>
+				</ul>
+			</div>
+			<div class="signInSection col-sm-4">
+				<a href="#" class="signIn">Sign in</a>
+				<a href="#" class="signInButton"></a>
+				<a href="#" class="left-bar"></a>
+			</div>
+		</div>
+		<div class="search-section col-sm-8">
+			<a href="#"><img src="bing-sign.png" class="bing-sign"></a>
+			<input type="text" class="search-bar">
+			<input type="submit" class="submit" value=" ">
+		</div>
+	</div>
+	<div class="footer col-sm-12">
+		<div class="footer-bar col-sm-4">
+		<ul>
+			<li><a href="#">© 2017 Microsoft</a></li>
+			<li class=="sl">|</li>
+			<li><a href="#">Privacy and Cookies</a></li>
+			<li class=="sl">|</li>
+			<li><a href="#">Legal</a></li>
+			<li class=="sl">|</li>
+			<li><a href="#">Advertise</a></li>
+			<li class=="sl">|</li>
+			<li><a href="#">Help</a></li>
+			<li class=="sl">|</li>
+			<li><a href="#" id="feedback">Feedback</a></li>
+		</ul>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
